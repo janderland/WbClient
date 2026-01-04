@@ -351,7 +351,7 @@ module.exports = function() {
 },{"./messages":5}],3:[function(require,module,exports){
 'use strict';
 
-var url = 'wss://wishbanana.janderland.deno.net/',
+var url = 'wss://wishbanana.com/',
 	stateNames = ['Connecting', 'Matching', 'Counting', 'Playing', 'Ending'];
 
 var logging = require('./logging')('Server');
